@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/distance/center/34.1175,-118.111321/unit/mi"
+method: GET
+order: 4503597654518629

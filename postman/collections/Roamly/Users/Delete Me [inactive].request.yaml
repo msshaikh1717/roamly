@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/users/deleteMe"
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 4607

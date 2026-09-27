@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/tours-within/300/center/63.918874, -118.134981/unit/mi"
+method: GET
+order: 4503308385948560

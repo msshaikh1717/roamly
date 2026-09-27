@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/users"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 4000

@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/tour-stats"
+method: GET
+order: 4503155652000617

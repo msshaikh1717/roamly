@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/6ab60dade635182019f167d7/reviews"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 2698173980113179

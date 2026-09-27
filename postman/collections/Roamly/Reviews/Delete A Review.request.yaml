@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/reviews/6ab60edae635182019f167d9"
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 560138731830153

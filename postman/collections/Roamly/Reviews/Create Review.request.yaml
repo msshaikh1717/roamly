@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/reviews"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "review":"my 4th review",
+        "tour":"6ab365c2f64dd45c055023f2",
+        "user":"6aae3406a3458b31f162d6c3"
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 1790150213975

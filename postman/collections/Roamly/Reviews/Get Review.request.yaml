@@ -1,0 +1,6 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/reviews/5c88fa8cf4afda39709c296c"
+method: GET
+auth:
+  type: noauth
+order: 4381510372485909

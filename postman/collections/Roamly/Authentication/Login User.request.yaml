@@ -1,0 +1,18 @@
+$kind: http-request
+description: ""
+url: "{{base_url}}/api/v1/users/login"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\":\"lisa@example.com\",\r
+
+    \    \"password\":\"{{password}}\"\r
+
+    }"
+scripts:
+  - type: afterResponse
+    code: pm.environment.set("jwt", pm.response.json().token);
+    language: text/javascript
+order: 2835842731082378

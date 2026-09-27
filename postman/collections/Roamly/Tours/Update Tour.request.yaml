@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/5c88fa8cf4afda39709c295a"
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "guides": ["6aae3406a3458b31f162d6c3", "6aaf97017bdbd81f5ec7aedf"]
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 4077394738556434

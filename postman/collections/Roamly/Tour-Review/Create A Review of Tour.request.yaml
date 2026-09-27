@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/6ab6791149bc87b9aee59e68/reviews"
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "review":"It was okayish!",
+        "rating":1.55555555
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 1790170685847

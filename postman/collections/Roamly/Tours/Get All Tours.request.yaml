@@ -1,0 +1,19 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours?price[lt]=1000&ratingsAverage[gte]=4.7&duration[gte]=5"
+method: GET
+queryParams:
+  - key: price[lt]
+    value: "1000"
+    disabled: false
+    description: ""
+  - key: ratingsAverage[gte]
+    value: "4.7"
+    disabled: false
+    description: ""
+  - key: duration[gte]
+    value: "5"
+    disabled: false
+    description: Query for tour duration. Supports gte, lte, gt, lt operators
+auth:
+  type: noauth
+order: 1789555992496

@@ -1,0 +1,26 @@
+$kind: http-request
+description: ""
+url: "{{base_url}}/api/v1/users/signup"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"name\": \"<div id='bad-code'>Name</div>\",\r
+
+    \  \"email\": \"test4@example.com\",\r
+
+    \  \"password\": \"{{password}}\",\r
+
+    \  \"passwordConfirm\": \"{{password}}\",\r
+
+    \  \"role\":\"guide\"\r
+
+    }"
+auth:
+  type: noauth
+scripts:
+  - type: afterResponse
+    code: pm.environment.set("jwt", pm.response.json().token);
+    language: text/javascript
+order: 3997523103482152

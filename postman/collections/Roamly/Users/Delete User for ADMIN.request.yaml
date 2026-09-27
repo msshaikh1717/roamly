@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/users/6aaf97017bdbd81f5ec7aedf"
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 1371388547960213

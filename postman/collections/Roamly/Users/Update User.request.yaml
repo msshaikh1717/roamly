@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/users/6aae3406a3458b31f162d6c3"
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "name":"Administrator"
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 2166166604080683

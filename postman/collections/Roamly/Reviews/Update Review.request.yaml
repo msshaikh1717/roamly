@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/reviews/6ab5fc7e662d60de4c416509"
+method: PATCH
+body:
+  type: json
+  content: |-
+    {
+        "rating":5
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 3979506704308645

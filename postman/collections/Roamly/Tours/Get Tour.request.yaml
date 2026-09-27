@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/5c88fa8cf4afda39709c2955"
+method: GET
+order: 3779432236612505

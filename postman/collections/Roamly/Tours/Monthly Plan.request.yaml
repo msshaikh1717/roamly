@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/monthly-plan/2021"
+method: GET
+order: 4490918554788751

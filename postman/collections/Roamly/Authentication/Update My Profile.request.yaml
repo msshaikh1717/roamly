@@ -1,0 +1,17 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/users/updateMe"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"password\":\"pass1234\",\r
+
+    \    \"name\":\"mohammed\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 1789800414956

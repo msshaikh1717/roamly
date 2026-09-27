@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/tours/6ab365c2f64dd45c055023f2"
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 4318652763212920

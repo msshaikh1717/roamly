@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{base_url}}/api/v1/reviews"
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{jwt}}"
+order: 612574045227729
